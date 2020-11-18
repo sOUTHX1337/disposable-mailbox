@@ -59,12 +59,6 @@ Install php dependecies:
 * **Error 500, Internal error**: Check your error log file. Add to `config.php`: 
 
     ini_set('display_errors', 1);    ini_set('display_startup_errors', 1);    error_reporting(E_ALL);
-
-## Testing on MacOs
- * brew install php
- * brew tap kabel/php-ext 
- * brew install kabel/php-ext/php-imap
- * php -S localhost:8000 -t src
  
 
 ## Credit :thumbsup:
